@@ -10,3 +10,4 @@ services:
       - .:/app:rw,cached
       - /app/node_modules
       - /app/.next
+      - /<host_folder_config>:/config
